@@ -1,0 +1,31 @@
+.d-flex{
+    display: flex;
+}
+.flex-direction-row{
+    flex-direction: row;
+}
+.flex-direction-col{
+    flex-direction: column;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.padding-block{
+    padding-block: 5px;
+}
+.padding-inline{
+    padding-inline: 10px;
+}
+.align-center{
+    align-items: center;
+}
+
+.bg-white{
+    background-color: white;
+}
+.h100{
+    height: 100%;
+}

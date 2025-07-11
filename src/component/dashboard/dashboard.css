@@ -1,0 +1,60 @@
+.headerBg {
+  background-color: antiquewhite;
+  box-shadow: 0px 0px 4px black;
+}
+.wh-15 {
+  width: 15px;
+  height: 15px;
+}
+.p16 {
+  padding: 16px;
+}
+.table-bg {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.wh-100 {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.icon-size {
+  font-size: 24px;
+  color: #fff;
+}
+.border-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.avtar {
+  background-color: red;
+  vertical-align: middle;
+}
+.tag {
+  display: flex;
+  height: 60px;
+  width: 96%;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: "inset 0 0 1px rgba(0 ,0 ,0 ,0.2)";
+}
+.dropdown-absolute {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.dropdown-relative {
+  position: relative;
+  padding: 1rem;
+  background: #fff;
+}
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sider{
+   flex: 1;
+    overflow-y: auto;
+    height: 100%;
+}
