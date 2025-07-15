@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/accounting' element={<LayoutComponent />}/>
+      <Route path='/' element={<LayoutComponent />}/>
     </Routes>
     </BrowserRouter>
     </>
