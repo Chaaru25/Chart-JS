@@ -28,7 +28,7 @@ const LineChart = () =>{
             <Option value="yearly">Yearly</Option>
             </Select>
             </div>
-            <div className="chart-container bg-white">
+            <div className="chart-container">
          <Line data={getChartData()} options={options} height={200} width={1000}/>
          </div>
         </div>
