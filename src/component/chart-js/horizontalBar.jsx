@@ -16,6 +16,7 @@ const TagColorBar = () => {
               backgroundColor: tagColors[tag] || "#d9d9d9",
               width: `${widthPercent}%`,
               height: "100%",
+              color:'#fffff'
             }}
           ></div>
         );

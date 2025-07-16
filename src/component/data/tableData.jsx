@@ -5,8 +5,8 @@ export const tableColumns = [
       title: "Name",
       dataIndex: "name",
       key: "name",
-      width:'20%'
-      // render: name => (<div><img src={'src/assets/info.png'} alt='image'/>{name}</div>)
+      width:'20%',
+      render: (name) => (<div className="d-flex align-center"><img src={'src/assets/info.png'} alt='image' className="wh-15 m5"/>{name}</div>)
     },
     {
       title: "File Size",
