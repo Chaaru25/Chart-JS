@@ -5,16 +5,16 @@ import { Option } from "antd/es/mentions";
 import { useState } from "react";
 
 const LineChart = () =>{
-    const [selectedRange, setSelectedRange] = useState('monthly');
+    const [selectedRange, setSelectedRange] = useState('weekly');
     const getChartData =() =>{
         switch (selectedRange) {
-            case 'weekly':
-                return data;
+            case 'monthly':
+                return monthlyData;
             case 'yearly':
                 return YearlyData;
-            case "monthly":
+            case "weekly":
             default:
-                return monthlyData;
+                return data;
         }
     }
     return(
