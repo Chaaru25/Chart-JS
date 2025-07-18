@@ -2,7 +2,7 @@ import { Avatar, Input } from "antd";
 import { InfoCircleOutlined } from "@ant-design/icons";
 const HeaderComponent = () => {
   return (
-    <div className="d-flex justify-end align-center">
+    <div className="d-flex f-wrap justify-end align-center">
       <div className="padding-inline">
         <Input />
       </div>

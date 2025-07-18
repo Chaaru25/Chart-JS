@@ -6,7 +6,7 @@ export const tableColumns = [
       dataIndex: "name",
       key: "name",
       width:'20%',
-      render: (name) => (<div className="d-flex align-center"><img src={'src/assets/info.png'} alt='image' className="wh-15 m5"/>{name}</div>)
+      render: (name) => (<div className="d-flex f-wrap align-center"><img src={'src/assets/info.png'} alt='image' className="wh-15 m5"/>{name}</div>)
     },
     {
       title: "File Size",

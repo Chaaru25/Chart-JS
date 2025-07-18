@@ -1,7 +1,10 @@
 .d-flex{
-    display: flex;
+    display: flex; 
+}
+.f-wrap{
     flex-wrap: wrap;
 }
+
 .flex-direction-row{
     flex-direction: row;
 }

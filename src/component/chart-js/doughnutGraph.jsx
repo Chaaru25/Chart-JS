@@ -4,7 +4,7 @@ import { donutConfig, donutConfigOne, donutConfigTwo, doughnutdata, doughnutdata
 
 const DoughnutGraph =() =>{
  return(
-<div className="d-flex justify-evenly padding-inline">
+<div className="d-flex f-wrap justify-evenly padding-inline">
     <div className="doughnut-bg">
     <Doughnut data={doughnutdata} options={donutConfig} height={300} width={350}  />
     </div>
